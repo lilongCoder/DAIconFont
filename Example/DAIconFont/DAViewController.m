@@ -19,16 +19,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UILabel *lab = [UILabel new];
-    lab.frame = CGRectMake(100, 100, 200, 200);
-    [self.view addSubview:lab];
-    lab.font = [UIFont iconFontOfSize:22];
-    lab.text = @"\U0000e70c";
+    UILabel *label = [UILabel new];
+    label.frame = CGRectMake(100, 100, 200, 200);
+    [self.view addSubview:label];
+    label.font = [UIFont iconFontOfSize:22];
+    label.text = @"\U0000e70c";
     
-    UIImageView *imgV = [[UIImageView alloc] initWithFrame:CGRectMake(100, 300, 20, 20)];
-    [self.view addSubview:imgV];
-    TBCityIconInfo *info = [[TBCityIconInfo alloc] initWithText:@"\U0000e70c" size:40 color:[UIColor redColor]];
-    imgV.image = [UIImage iconWithInfo:info];
+    UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 300, 60, 60)];
+    [self.view addSubview:imgView];
+    TBCityIconInfo *info = [[TBCityIconInfo alloc] initWithText:@"\U0000e70c" size:60 color:[UIColor redColor]];
+    imgView.image = [UIImage iconWithInfo:info];
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
