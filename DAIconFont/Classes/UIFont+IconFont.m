@@ -24,7 +24,7 @@
 }
 + (void)dynamicallyLoadFontNamed:(NSString *)name
 {
-    NSString *fontfileName = @"iconfont.ttf";
+    NSString *fontfileName = @"iconfont.ttf";//1111
     NSBundle *imageBundle = [NSBundle bundleForClass:NSClassFromString(@"TBCityIconFont")];
     NSURL *url1 = [imageBundle URLForResource:@"IconFontResource" withExtension:@"bundle"];
     imageBundle = [NSBundle bundleWithURL:url1];
