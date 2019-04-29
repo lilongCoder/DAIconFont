@@ -1,0 +1,6 @@
+framework module DAIconFont {
+  umbrella header "DAIconFont-umbrella.h"
+
+  export *
+  module * { export * }
+}

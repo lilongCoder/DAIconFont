@@ -1,0 +1,6 @@
+framework module Pods_DAIconFont_Example {
+  umbrella header "Pods-DAIconFont_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

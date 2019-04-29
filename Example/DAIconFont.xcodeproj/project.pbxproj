@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		059EA8172A85FB0B1F1CC727 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		059EA8172A85FB0B1F1CC727 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		0ABBB16260714CF8EB73ED37 /* Pods-DAIconFont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DAIconFont_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DAIconFont_Tests/Pods-DAIconFont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DAIconFont_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAIconFont_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,11 +60,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		748EC96F86202A7E5320F108 /* Pods-DAIconFont_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DAIconFont_Example.debug.xcconfig"; path = "Target Support Files/Pods-DAIconFont_Example/Pods-DAIconFont_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		74AAD5CC481D37D0E90CF28C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		74AAD5CC481D37D0E90CF28C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A98F50BF6F6B82756C31691F /* Pods-DAIconFont_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DAIconFont_Tests.release.xcconfig"; path = "Target Support Files/Pods-DAIconFont_Tests/Pods-DAIconFont_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BEDD7BB14B2274889AAB5BAD /* Pods_DAIconFont_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DAIconFont_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6DD478D415B20E29BC32FDF /* DAIconFont.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DAIconFont.podspec; path = ../DAIconFont.podspec; sourceTree = "<group>"; };
+		C6DD478D415B20E29BC32FDF /* DAIconFont.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DAIconFont.podspec; path = ../DAIconFont.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F846E5D5D9F7907B381F9933 /* Pods_DAIconFont_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DAIconFont_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF616C5A8A10036489307768 /* Pods-DAIconFont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DAIconFont_Example.release.xcconfig"; path = "Target Support Files/Pods-DAIconFont_Example/Pods-DAIconFont_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				0ABBB16260714CF8EB73ED37 /* Pods-DAIconFont_Tests.debug.xcconfig */,
 				A98F50BF6F6B82756C31691F /* Pods-DAIconFont_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

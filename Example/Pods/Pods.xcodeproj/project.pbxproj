@@ -1,0 +1,907 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B6F9B627D91C3C7D783C70196672887 /* TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3A4406EC2724872C62707FEB1792E8 /* TBCityIconFont.m */; };
+		23690738453122580789B4878FA12E5D /* Pods-DAIconFont_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E10D5F2E30C1C9B3A7D0EAADA4D8E41 /* Pods-DAIconFont_Tests-dummy.m */; };
+		26044CCF8C8B040E31607C0BE8DCDD8C /* TBCityIconFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 998575A7BD48CD4E3EC819C234ED3AA5 /* TBCityIconFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C64E1384819ACC11756A96D4D973E88 /* DAIconFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E10AF65BE7AE7F7A9A55AED9FDE638 /* DAIconFont-dummy.m */; };
+		403128DB624C4DFDC71A1A231DE2BBB9 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 961917015F85B46F31A38710D9B6AFED /* iconfont.ttf */; };
+		558AD885A896D1BE0E94EBBF2612B51E /* TBCityIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B45A5EFECBB149E80261502204D54 /* TBCityIconInfo.m */; };
+		90506BA1A3988E62B6514736A5F3B655 /* UIFont+IconFont.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC7EDA6CE40274C260F4522411E8840 /* UIFont+IconFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99E962A61A356BC08958C0AE00FA817A /* Pods-DAIconFont_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0359D9C7BD1644D77867B43BF84F16FE /* Pods-DAIconFont_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4F753309F843505A693B954EB7AB4C /* IconFontResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FBEB1B9DD6A4799E750A481FCDE42633 /* IconFontResource.bundle */; };
+		A5328572D375511EE014BC63F09F2893 /* Pods-DAIconFont_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5890B43B39C40E09FCB667F217B4586 /* Pods-DAIconFont_Example-dummy.m */; };
+		B4E5102D16ACBBC4597D3A4F8A9485B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B65236A3595891AD47CA261F617A00DB /* Pods-DAIconFont_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBDFC386A5BC1525BB2E9FC1075198AC /* Pods-DAIconFont_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2F81586D211FBB3856650AB0F9D9BBC /* UIImage+TBCityIconFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 713580ADA2ED74039AABD8973022A6D4 /* UIImage+TBCityIconFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E49ACED3B165D6EAB5647D7B2ACFB62B /* TBCityIconInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E14C6C958DF1371E1345656B4201D962 /* TBCityIconInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E50E68772A3CE705CABF82AD0E669F30 /* UIImage+TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FF32FB2F04F88CB53B8F6A386700EC /* UIImage+TBCityIconFont.m */; };
+		E6B643A41A11F172F8FF1A58805E2CE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		E71E682900CDAFB71FC21C1DE5558A25 /* UIFont+IconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F78E6047D1C1CC0B7DE28D50CD979A /* UIFont+IconFont.m */; };
+		F65D5E60B387F204469EA925DE431B37 /* DAIconFont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E19EF5331216EC5CAC58D029829C6D /* DAIconFont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE38964338FD0F884417D985EDD980D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10AAFF2D04489BFBC28AF58A4AD0AC6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3671EFAAB19A883780E91BA311FBF0AD;
+			remoteInfo = DAIconFont;
+		};
+		3ECE216A20E5812F6C187B3DBC298050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42FB2DB4ECE4B8E7763128A0D805B407;
+			remoteInfo = "DAIconFont-IconFontResource";
+		};
+		6DC4F4A195E4819C01F88CEBB8EA8FDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45169F158DEFD554B566C73CC57281E6;
+			remoteInfo = "Pods-DAIconFont_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0359D9C7BD1644D77867B43BF84F16FE /* Pods-DAIconFont_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DAIconFont_Example-umbrella.h"; sourceTree = "<group>"; };
+		07F7736C8EA900C325474C5F95AE8B0C /* Pods-DAIconFont_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DAIconFont_Example.modulemap"; sourceTree = "<group>"; };
+		0E10D5F2E30C1C9B3A7D0EAADA4D8E41 /* Pods-DAIconFont_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DAIconFont_Tests-dummy.m"; sourceTree = "<group>"; };
+		104354840DC46715D9875E3F85F1DC5C /* Pods_DAIconFont_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DAIconFont_Tests.framework; path = "Pods-DAIconFont_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		237CD2EBF37F497335614E673F562CE4 /* DAIconFont.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DAIconFont.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		299E76C869B1E9B444E108CC87199A50 /* Pods-DAIconFont_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DAIconFont_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2FAD12A06FD6AD193DEE134577CEBCA0 /* Pods-DAIconFont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DAIconFont_Example.release.xcconfig"; sourceTree = "<group>"; };
+		32FF32FB2F04F88CB53B8F6A386700EC /* UIImage+TBCityIconFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+TBCityIconFont.m"; path = "DAIconFont/Classes/UIImage+TBCityIconFont.m"; sourceTree = "<group>"; };
+		4C9F03C96725057A529EEC97A45DF546 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		53F78E6047D1C1CC0B7DE28D50CD979A /* UIFont+IconFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+IconFont.m"; path = "DAIconFont/Classes/UIFont+IconFont.m"; sourceTree = "<group>"; };
+		5C5B45A5EFECBB149E80261502204D54 /* TBCityIconInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBCityIconInfo.m; path = DAIconFont/Classes/TBCityIconInfo.m; sourceTree = "<group>"; };
+		5D36CF43AF611E5B4BBE2D85AD1A0213 /* ResourceBundle-IconFontResource-DAIconFont-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-IconFontResource-DAIconFont-Info.plist"; sourceTree = "<group>"; };
+		5D5C4A61BF497D0E98F93A9AFC3C4C30 /* Pods-DAIconFont_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DAIconFont_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6071FF77710E3E330C4DAF6413DF452F /* Pods-DAIconFont_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DAIconFont_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		65E10AF65BE7AE7F7A9A55AED9FDE638 /* DAIconFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DAIconFont-dummy.m"; sourceTree = "<group>"; };
+		713580ADA2ED74039AABD8973022A6D4 /* UIImage+TBCityIconFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+TBCityIconFont.h"; path = "DAIconFont/Classes/UIImage+TBCityIconFont.h"; sourceTree = "<group>"; };
+		73E19EF5331216EC5CAC58D029829C6D /* DAIconFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DAIconFont-umbrella.h"; sourceTree = "<group>"; };
+		78E841C7FA21B5A864BE9B0C30FCE879 /* Pods-DAIconFont_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DAIconFont_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7BF7EB517C59F64B891D82F8437EBA33 /* DAIconFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DAIconFont.framework; path = DAIconFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8518A782EA150DDC3F0169F55B2C38D8 /* Pods-DAIconFont_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DAIconFont_Tests-Info.plist"; sourceTree = "<group>"; };
+		872C23DFF5698072D0D162B76A26E700 /* DAIconFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DAIconFont-prefix.pch"; sourceTree = "<group>"; };
+		92D8EF05F4A04792BE1C4C57717F7454 /* Pods-DAIconFont_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DAIconFont_Example-frameworks.sh"; sourceTree = "<group>"; };
+		940891CABC4E4344FAE0188F6D9E6CCC /* DAIconFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DAIconFont.xcconfig; sourceTree = "<group>"; };
+		95D5AA64819264FF87D518F97B5F3884 /* Pods_DAIconFont_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DAIconFont_Example.framework; path = "Pods-DAIconFont_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		961917015F85B46F31A38710D9B6AFED /* iconfont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = iconfont.ttf; path = DAIconFont/Assets/iconfont.ttf; sourceTree = "<group>"; };
+		96D7DD5F7CFBB8B24DD573E05D181C6A /* Pods-DAIconFont_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DAIconFont_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		998575A7BD48CD4E3EC819C234ED3AA5 /* TBCityIconFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBCityIconFont.h; path = DAIconFont/Classes/TBCityIconFont.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB7C14612119B252C1A6F7AF9002D10B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B415580CA1E4DBC47BBC89AA8F80672C /* Pods-DAIconFont_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DAIconFont_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B5890B43B39C40E09FCB667F217B4586 /* Pods-DAIconFont_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DAIconFont_Example-dummy.m"; sourceTree = "<group>"; };
+		BDC7EDA6CE40274C260F4522411E8840 /* UIFont+IconFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+IconFont.h"; path = "DAIconFont/Classes/UIFont+IconFont.h"; sourceTree = "<group>"; };
+		BE85F43B9E2040EB88EDEABCD0F82943 /* DAIconFont-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DAIconFont-Info.plist"; sourceTree = "<group>"; };
+		C608B0C38918CCFB05136CC9117130E2 /* Pods-DAIconFont_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DAIconFont_Example-Info.plist"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DD3A4406EC2724872C62707FEB1792E8 /* TBCityIconFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBCityIconFont.m; path = DAIconFont/Classes/TBCityIconFont.m; sourceTree = "<group>"; };
+		E0A29FC82D3100AEB464CABFE89D8976 /* DAIconFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DAIconFont.modulemap; sourceTree = "<group>"; };
+		E14C6C958DF1371E1345656B4201D962 /* TBCityIconInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBCityIconInfo.h; path = DAIconFont/Classes/TBCityIconInfo.h; sourceTree = "<group>"; };
+		EB8BA1CE7F216D50321443EC4812A48E /* Pods-DAIconFont_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DAIconFont_Tests.modulemap"; sourceTree = "<group>"; };
+		EBDFC386A5BC1525BB2E9FC1075198AC /* Pods-DAIconFont_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DAIconFont_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FBEB1B9DD6A4799E750A481FCDE42633 /* IconFontResource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = IconFontResource.bundle; path = "DAIconFont-IconFontResource.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFA1144B99F902AA41D8A0B6B8D22A2 /* Pods-DAIconFont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DAIconFont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A7669B03E499D9080247EA0707DD99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E5102D16ACBBC4597D3A4F8A9485B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B82AEC558D13B416E86C5B983BF67AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B643A41A11F172F8FF1A58805E2CE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8CDF29E2A46C63CB170E8BB287F4F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE38964338FD0F884417D985EDD980D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA085F217AE831D2F9F55A5151D5EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14C4205E4E0E766A4C2799A0FBBD5505 /* Pods-DAIconFont_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EB8BA1CE7F216D50321443EC4812A48E /* Pods-DAIconFont_Tests.modulemap */,
+				96D7DD5F7CFBB8B24DD573E05D181C6A /* Pods-DAIconFont_Tests-acknowledgements.markdown */,
+				299E76C869B1E9B444E108CC87199A50 /* Pods-DAIconFont_Tests-acknowledgements.plist */,
+				0E10D5F2E30C1C9B3A7D0EAADA4D8E41 /* Pods-DAIconFont_Tests-dummy.m */,
+				8518A782EA150DDC3F0169F55B2C38D8 /* Pods-DAIconFont_Tests-Info.plist */,
+				EBDFC386A5BC1525BB2E9FC1075198AC /* Pods-DAIconFont_Tests-umbrella.h */,
+				FBFA1144B99F902AA41D8A0B6B8D22A2 /* Pods-DAIconFont_Tests.debug.xcconfig */,
+				6071FF77710E3E330C4DAF6413DF452F /* Pods-DAIconFont_Tests.release.xcconfig */,
+			);
+			name = "Pods-DAIconFont_Tests";
+			path = "Target Support Files/Pods-DAIconFont_Tests";
+			sourceTree = "<group>";
+		};
+		2B5DBE5DA3AC0E7AEF10FDD9DFA35BFD /* DAIconFont */ = {
+			isa = PBXGroup;
+			children = (
+				998575A7BD48CD4E3EC819C234ED3AA5 /* TBCityIconFont.h */,
+				DD3A4406EC2724872C62707FEB1792E8 /* TBCityIconFont.m */,
+				E14C6C958DF1371E1345656B4201D962 /* TBCityIconInfo.h */,
+				5C5B45A5EFECBB149E80261502204D54 /* TBCityIconInfo.m */,
+				BDC7EDA6CE40274C260F4522411E8840 /* UIFont+IconFont.h */,
+				53F78E6047D1C1CC0B7DE28D50CD979A /* UIFont+IconFont.m */,
+				713580ADA2ED74039AABD8973022A6D4 /* UIImage+TBCityIconFont.h */,
+				32FF32FB2F04F88CB53B8F6A386700EC /* UIImage+TBCityIconFont.m */,
+				FA0EF3D5AB2ADE29948F609F6C618EE1 /* Pod */,
+				76B0A40F0DDA68F437F997A2D027729C /* Resources */,
+				F3261A1BB708FFD738F0D0379B43A5F4 /* Support Files */,
+			);
+			name = DAIconFont;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		396672EA3FCBF6C4F0CFC16BC4BE7D75 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F66BE4595DA47123C1C63C782AEA932 /* Pods-DAIconFont_Example */,
+				14C4205E4E0E766A4C2799A0FBBD5505 /* Pods-DAIconFont_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4F66BE4595DA47123C1C63C782AEA932 /* Pods-DAIconFont_Example */ = {
+			isa = PBXGroup;
+			children = (
+				07F7736C8EA900C325474C5F95AE8B0C /* Pods-DAIconFont_Example.modulemap */,
+				78E841C7FA21B5A864BE9B0C30FCE879 /* Pods-DAIconFont_Example-acknowledgements.markdown */,
+				B415580CA1E4DBC47BBC89AA8F80672C /* Pods-DAIconFont_Example-acknowledgements.plist */,
+				B5890B43B39C40E09FCB667F217B4586 /* Pods-DAIconFont_Example-dummy.m */,
+				92D8EF05F4A04792BE1C4C57717F7454 /* Pods-DAIconFont_Example-frameworks.sh */,
+				C608B0C38918CCFB05136CC9117130E2 /* Pods-DAIconFont_Example-Info.plist */,
+				0359D9C7BD1644D77867B43BF84F16FE /* Pods-DAIconFont_Example-umbrella.h */,
+				5D5C4A61BF497D0E98F93A9AFC3C4C30 /* Pods-DAIconFont_Example.debug.xcconfig */,
+				2FAD12A06FD6AD193DEE134577CEBCA0 /* Pods-DAIconFont_Example.release.xcconfig */,
+			);
+			name = "Pods-DAIconFont_Example";
+			path = "Target Support Files/Pods-DAIconFont_Example";
+			sourceTree = "<group>";
+		};
+		76B0A40F0DDA68F437F997A2D027729C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				961917015F85B46F31A38710D9B6AFED /* iconfont.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CC4416443A8F47970BC17E081C826B4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BF7EB517C59F64B891D82F8437EBA33 /* DAIconFont.framework */,
+				FBEB1B9DD6A4799E750A481FCDE42633 /* IconFontResource.bundle */,
+				95D5AA64819264FF87D518F97B5F3884 /* Pods_DAIconFont_Example.framework */,
+				104354840DC46715D9875E3F85F1DC5C /* Pods_DAIconFont_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E494BF0E33EC075FC5B19AB33D3E9F19 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CC4416443A8F47970BC17E081C826B4F /* Products */,
+				396672EA3FCBF6C4F0CFC16BC4BE7D75 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E494BF0E33EC075FC5B19AB33D3E9F19 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B5DBE5DA3AC0E7AEF10FDD9DFA35BFD /* DAIconFont */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F3261A1BB708FFD738F0D0379B43A5F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0A29FC82D3100AEB464CABFE89D8976 /* DAIconFont.modulemap */,
+				940891CABC4E4344FAE0188F6D9E6CCC /* DAIconFont.xcconfig */,
+				65E10AF65BE7AE7F7A9A55AED9FDE638 /* DAIconFont-dummy.m */,
+				BE85F43B9E2040EB88EDEABCD0F82943 /* DAIconFont-Info.plist */,
+				872C23DFF5698072D0D162B76A26E700 /* DAIconFont-prefix.pch */,
+				73E19EF5331216EC5CAC58D029829C6D /* DAIconFont-umbrella.h */,
+				5D36CF43AF611E5B4BBE2D85AD1A0213 /* ResourceBundle-IconFontResource-DAIconFont-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DAIconFont";
+			sourceTree = "<group>";
+		};
+		FA0EF3D5AB2ADE29948F609F6C618EE1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				237CD2EBF37F497335614E673F562CE4 /* DAIconFont.podspec */,
+				4C9F03C96725057A529EEC97A45DF546 /* LICENSE */,
+				AB7C14612119B252C1A6F7AF9002D10B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2ED6578ACE8DB188013F55136267006E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65236A3595891AD47CA261F617A00DB /* Pods-DAIconFont_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC8A619C854FE2A8EC2649E69E5C15B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65D5E60B387F204469EA925DE431B37 /* DAIconFont-umbrella.h in Headers */,
+				26044CCF8C8B040E31607C0BE8DCDD8C /* TBCityIconFont.h in Headers */,
+				E49ACED3B165D6EAB5647D7B2ACFB62B /* TBCityIconInfo.h in Headers */,
+				90506BA1A3988E62B6514736A5F3B655 /* UIFont+IconFont.h in Headers */,
+				E2F81586D211FBB3856650AB0F9D9BBC /* UIImage+TBCityIconFont.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4401FE6BD5B80100FB3E05660EC3388 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E962A61A356BC08958C0AE00FA817A /* Pods-DAIconFont_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2576B0EC770F4A3AA176BF973DEAB930 /* Pods-DAIconFont_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741EAF20F54C344ADBEE087F59B8116C /* Build configuration list for PBXNativeTarget "Pods-DAIconFont_Tests" */;
+			buildPhases = (
+				2ED6578ACE8DB188013F55136267006E /* Headers */,
+				7145B91AF564BC023A9252B5BF86DD5E /* Sources */,
+				00A7669B03E499D9080247EA0707DD99 /* Frameworks */,
+				2C16ECB216CC240ADB1030A7DFDC267C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA48963E2D8211D7D718F9CA6C61B3ED /* PBXTargetDependency */,
+			);
+			name = "Pods-DAIconFont_Tests";
+			productName = "Pods-DAIconFont_Tests";
+			productReference = 104354840DC46715D9875E3F85F1DC5C /* Pods_DAIconFont_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3671EFAAB19A883780E91BA311FBF0AD /* DAIconFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361AB2FC296EF6F3C7EB1ED1B2A3AEA5 /* Build configuration list for PBXNativeTarget "DAIconFont" */;
+			buildPhases = (
+				CC8A619C854FE2A8EC2649E69E5C15B8 /* Headers */,
+				57159670DEBE39571408157D6CB141FC /* Sources */,
+				9D8CDF29E2A46C63CB170E8BB287F4F4 /* Frameworks */,
+				01C9846C881AEC4E640750D6D5C83B08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5AAA23761CF9674638765CC6EF866AA /* PBXTargetDependency */,
+			);
+			name = DAIconFont;
+			productName = DAIconFont;
+			productReference = 7BF7EB517C59F64B891D82F8437EBA33 /* DAIconFont.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		42FB2DB4ECE4B8E7763128A0D805B407 /* DAIconFont-IconFontResource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE666ED3CF2573D5717CD296CFD9012 /* Build configuration list for PBXNativeTarget "DAIconFont-IconFontResource" */;
+			buildPhases = (
+				F8E99ADF058EE28A563334420749965C /* Sources */,
+				BFA085F217AE831D2F9F55A5151D5EE2 /* Frameworks */,
+				AD730514706C01E67F0461C4AFC8B87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DAIconFont-IconFontResource";
+			productName = "DAIconFont-IconFontResource";
+			productReference = FBEB1B9DD6A4799E750A481FCDE42633 /* IconFontResource.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		45169F158DEFD554B566C73CC57281E6 /* Pods-DAIconFont_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4891780E8842195BE9197753F9047B5E /* Build configuration list for PBXNativeTarget "Pods-DAIconFont_Example" */;
+			buildPhases = (
+				D4401FE6BD5B80100FB3E05660EC3388 /* Headers */,
+				B9060658865FE4CA234453099DCBA844 /* Sources */,
+				2B82AEC558D13B416E86C5B983BF67AA /* Frameworks */,
+				72D78F619A775D8178B1C6551CF2C9E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E5C2EE71E060F04D73D7D6CB6E059A4 /* PBXTargetDependency */,
+			);
+			name = "Pods-DAIconFont_Example";
+			productName = "Pods-DAIconFont_Example";
+			productReference = 95D5AA64819264FF87D518F97B5F3884 /* Pods_DAIconFont_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CC4416443A8F47970BC17E081C826B4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3671EFAAB19A883780E91BA311FBF0AD /* DAIconFont */,
+				42FB2DB4ECE4B8E7763128A0D805B407 /* DAIconFont-IconFontResource */,
+				45169F158DEFD554B566C73CC57281E6 /* Pods-DAIconFont_Example */,
+				2576B0EC770F4A3AA176BF973DEAB930 /* Pods-DAIconFont_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01C9846C881AEC4E640750D6D5C83B08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4F753309F843505A693B954EB7AB4C /* IconFontResource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C16ECB216CC240ADB1030A7DFDC267C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D78F619A775D8178B1C6551CF2C9E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD730514706C01E67F0461C4AFC8B87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403128DB624C4DFDC71A1A231DE2BBB9 /* iconfont.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57159670DEBE39571408157D6CB141FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C64E1384819ACC11756A96D4D973E88 /* DAIconFont-dummy.m in Sources */,
+				1B6F9B627D91C3C7D783C70196672887 /* TBCityIconFont.m in Sources */,
+				558AD885A896D1BE0E94EBBF2612B51E /* TBCityIconInfo.m in Sources */,
+				E71E682900CDAFB71FC21C1DE5558A25 /* UIFont+IconFont.m in Sources */,
+				E50E68772A3CE705CABF82AD0E669F30 /* UIImage+TBCityIconFont.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7145B91AF564BC023A9252B5BF86DD5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23690738453122580789B4878FA12E5D /* Pods-DAIconFont_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9060658865FE4CA234453099DCBA844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5328572D375511EE014BC63F09F2893 /* Pods-DAIconFont_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E99ADF058EE28A563334420749965C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E5C2EE71E060F04D73D7D6CB6E059A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DAIconFont;
+			target = 3671EFAAB19A883780E91BA311FBF0AD /* DAIconFont */;
+			targetProxy = 10AAFF2D04489BFBC28AF58A4AD0AC6B /* PBXContainerItemProxy */;
+		};
+		B5AAA23761CF9674638765CC6EF866AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DAIconFont-IconFontResource";
+			target = 42FB2DB4ECE4B8E7763128A0D805B407 /* DAIconFont-IconFontResource */;
+			targetProxy = 3ECE216A20E5812F6C187B3DBC298050 /* PBXContainerItemProxy */;
+		};
+		CA48963E2D8211D7D718F9CA6C61B3ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DAIconFont_Example";
+			target = 45169F158DEFD554B566C73CC57281E6 /* Pods-DAIconFont_Example */;
+			targetProxy = 6DC4F4A195E4819C01F88CEBB8EA8FDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1592421F2735186E718702E10D98869A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 940891CABC4E4344FAE0188F6D9E6CCC /* DAIconFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DAIconFont/DAIconFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DAIconFont/DAIconFont-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DAIconFont/DAIconFont.modulemap";
+				PRODUCT_MODULE_NAME = DAIconFont;
+				PRODUCT_NAME = DAIconFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2484257FAD24DAB07789F7BA154DCCE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 940891CABC4E4344FAE0188F6D9E6CCC /* DAIconFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DAIconFont";
+				INFOPLIST_FILE = "Target Support Files/DAIconFont/ResourceBundle-IconFontResource-DAIconFont-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = IconFontResource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		666BF0AF2009234C021164EBF5251FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBFA1144B99F902AA41D8A0B6B8D22A2 /* Pods-DAIconFont_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DAIconFont_Tests/Pods-DAIconFont_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DAIconFont_Tests/Pods-DAIconFont_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CD6BEF5D7888DE9672A4440625675B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6071FF77710E3E330C4DAF6413DF452F /* Pods-DAIconFont_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DAIconFont_Tests/Pods-DAIconFont_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DAIconFont_Tests/Pods-DAIconFont_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D329912E2EFBA9C0EBA78577AFBC6B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 940891CABC4E4344FAE0188F6D9E6CCC /* DAIconFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DAIconFont";
+				INFOPLIST_FILE = "Target Support Files/DAIconFont/ResourceBundle-IconFontResource-DAIconFont-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = IconFontResource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B1CFBFE55D5BDD4607643B0B0E92AF2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 940891CABC4E4344FAE0188F6D9E6CCC /* DAIconFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DAIconFont/DAIconFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DAIconFont/DAIconFont-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DAIconFont/DAIconFont.modulemap";
+				PRODUCT_MODULE_NAME = DAIconFont;
+				PRODUCT_NAME = DAIconFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B29F0B5DEE29E86C0891BAACF130A88E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D5C4A61BF497D0E98F93A9AFC3C4C30 /* Pods-DAIconFont_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DAIconFont_Example/Pods-DAIconFont_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DAIconFont_Example/Pods-DAIconFont_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD4F3FB592F0D600145AE7F1229365C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FAD12A06FD6AD193DEE134577CEBCA0 /* Pods-DAIconFont_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DAIconFont_Example/Pods-DAIconFont_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DAIconFont_Example/Pods-DAIconFont_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		361AB2FC296EF6F3C7EB1ED1B2A3AEA5 /* Build configuration list for PBXNativeTarget "DAIconFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1592421F2735186E718702E10D98869A /* Debug */,
+				B1CFBFE55D5BDD4607643B0B0E92AF2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4891780E8842195BE9197753F9047B5E /* Build configuration list for PBXNativeTarget "Pods-DAIconFont_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B29F0B5DEE29E86C0891BAACF130A88E /* Debug */,
+				CD4F3FB592F0D600145AE7F1229365C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		741EAF20F54C344ADBEE087F59B8116C /* Build configuration list for PBXNativeTarget "Pods-DAIconFont_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666BF0AF2009234C021164EBF5251FD7 /* Debug */,
+				6CD6BEF5D7888DE9672A4440625675B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE666ED3CF2573D5717CD296CFD9012 /* Build configuration list for PBXNativeTarget "DAIconFont-IconFontResource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D329912E2EFBA9C0EBA78577AFBC6B9 /* Debug */,
+				2484257FAD24DAB07789F7BA154DCCE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

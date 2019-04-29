@@ -1,0 +1,16 @@
+PODS:
+  - DAIconFont (0.1.0)
+
+DEPENDENCIES:
+  - DAIconFont (from `../`)
+
+EXTERNAL SOURCES:
+  DAIconFont:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DAIconFont: 5745bc6eb7efce074551b0acd962953b1a0cc44c
+
+PODFILE CHECKSUM: 3966b81e323fb5c7ba4972e222b671f32ae3bc3d
+
+COCOAPODS: 1.6.0
