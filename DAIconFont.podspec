@@ -21,21 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/leehonn/DAIconFont'
+  s.homepage         = 'https://github.com/lilongCoder'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'leehonn' => 'lil@winning.com.cn' }
-  s.source           = { :git => 'https://github.com/leehonn/DAIconFont.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lilongCoder/DAIconFont.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'DAIconFont/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'DAIconFont' => ['DAIconFont/Assets/*.png']
-  # }
-
+  s.resource_bundles = {
+      'IconFontResource' => ['DAIconFont/Assets/*.ttf'],
+  }
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
