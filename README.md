@@ -2,7 +2,7 @@
 
 [![CI Status](https://img.shields.io/travis/leehonn/DAIconFont.svg?style=flat)](https://travis-ci.org/leehonn/DAIconFont)
 [![Version](https://img.shields.io/cocoapods/v/DAIconFont.svg?style=flat)](https://cocoapods.org/pods/DAIconFont)
-[![License](https://img.shields.io/cocoapods/l/DAIconFont.svg?style=flat)](https://cocoapods.org/pods/DAIconFont)
+[![License](https://github.com/996icu/996.ICU/blob/master/LICENSE)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/DAIconFont.svg?style=flat)](https://cocoapods.org/pods/DAIconFont)
 
 ## Example
@@ -22,7 +22,7 @@ pod 'DAIconFont'
 
 ## Author
 
-leehonn, lil@winning.com.cn
+leehonn, explorer.long@gmail.com
 
 ## License
 
