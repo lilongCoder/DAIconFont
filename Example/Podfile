@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'DAIconFont_Example' do
+  pod 'DAIconFont', :path => '../'
+
+  target 'DAIconFont_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
