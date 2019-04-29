@@ -22,14 +22,12 @@ pod 'DAIconFont'
 ## How To Use
 ``` objc
 //UILabel记载的方式
-UILabel *label = [UILabel new];
-label.frame = CGRectMake(100, 100, 200, 200);
-[self.view addSubview:label];
+……
 label.font = [UIFont iconFontOfSize:22];
 label.text = @"\U0000e70c";
+
 //当做Image加载的方式
-UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 300, 60, 60)];
-[self.view addSubview:imgView];
+……
 TBCityIconInfo *info = [[TBCityIconInfo alloc] initWithText:@"\U0000e70c" size:60 color:[UIColor redColor]];
 imgView.image = [UIImage iconWithInfo:info];
 ```
