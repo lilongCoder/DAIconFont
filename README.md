@@ -21,7 +21,7 @@ pod 'DAIconFont'
 ```
 ## How To Use
 ``` objc
-//UILabel记载的方式
+//UILabel加载的方式
 ……
 label.font = [UIFont iconFontOfSize:22];
 label.text = @"\U0000e70c";
